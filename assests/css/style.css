@@ -849,3 +849,75 @@ section{
 .experience .content .desc p{
     font-size: 1.2rem;
 }
+/* view all button */
+.morebtn{
+    display: flex;
+    justify-content: center;
+}
+.morebtn .btn{
+    position: relative;
+    line-height: 0;
+    padding: 1.6rem 3rem;
+    border-radius: .5em;
+    transition: .5s;
+    color: #fff;
+    background-color: #2506ad;
+    box-shadow: 0px 5px 10px rgba(48, 68, 247, .6);
+    text-align: center;
+}
+.morebtn .btn span{
+    font-weight: 600;
+    font-size: 1.7rem;
+    font-family: 'Nunito', sans-serif;
+}
+.morebtn .btn i{
+    margin-left: .3rem;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+.morebtn .btn:hover{
+    background: #1a047e;
+}
+.morebtn .btn:hover i {
+    transform: translateX(5px);   
+}
+/* Media qurie */
+@media screen and (max-width: 600px) {
+    .experience{
+        min-height: 80vh;
+    }
+    .experience .timeline{
+        margin-top: 2rem;
+    }
+    .experience .timeline::after{
+        left: 31px;
+    }
+    .experience .container{
+        width: 100%;
+        padding-left: 8rem;
+        padding-right: 2rem;
+    }
+    .experience .container::after{
+        font-size: 2.2rem;
+    }
+    .experience .container::before{
+        left: 61px;
+        border: medium solid #0f46a2;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #0f46a2 transparent transparent;
+    }
+    .experience .left::after{
+        left: 15px;
+    }
+    .experience .right::after{
+        left: 15px;
+    }
+    .experience .right{
+        left: 0%;
+    }
+    .morebtn{
+        margin-top: 3rem;
+    }
+}
+/* media query ends */
+/* experience swection end */
