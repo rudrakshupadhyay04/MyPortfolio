@@ -155,7 +155,7 @@ header .navbar ul li a.active, header .navbar ul li a:hover{
     min-height: 60vh;
 }
 .wrapper{
-  background-image: url(/assests/images/error.gif);
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Ficonscout.com%2Fillustrations%2Ferror-404-page&psig=AOvVaw2eb34TQJ3JafcSfkvMOZOY&ust=1719765773190000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMjFnpehgYcDFQAAAAAdAAAAABAE");
   height: 550px;
   background-position: center;
   /* background-repeat: no-repeat; */
