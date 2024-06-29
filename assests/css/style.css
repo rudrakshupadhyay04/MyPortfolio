@@ -244,7 +244,7 @@ section{
 /* Social icons */
 .socials{
     position: relative;
-    margin-top: 9rem;
+    margin-top: 4rem;
 }
 .socials .social-icons{
     padding-left: 0;
@@ -853,6 +853,7 @@ section{
 .morebtn{
     display: flex;
     justify-content: center;
+    margin-top: 4rem;
 }
 .morebtn .btn{
     position: relative;
