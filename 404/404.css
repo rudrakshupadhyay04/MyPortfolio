@@ -82,7 +82,7 @@ header .navbar ul li a{
     letter-spacing: 0.04rem;
     transition: .2s;
 }
-header .navbar ul li a.active, header .navbar ul li a:hover{
+header .navbar ul li a .active, header .navbar ul li a:hover{
     color: #011aff;
     border-bottom: .2rem solid #011aff;
     padding: .5rem 0;
@@ -130,7 +130,7 @@ header .navbar ul li a.active, header .navbar ul li a:hover{
         color: #fff;
         font-size: 2rem;
     }
-    header .navbar ul li a.active,
+    header .navbar ul li a .active,
     header .navbar ul li a:hover{
         padding: 1rem;
         color: #fff;
@@ -155,7 +155,7 @@ header .navbar ul li a.active, header .navbar ul li a:hover{
     min-height: 60vh;
 }
 .wrapper{
-  background-image: url("error1.webp");
+  background-image: url("error.gif");
   height: 550px;
   background-position: center;
   background-repeat: no-repeat;

@@ -148,7 +148,7 @@ header .navbar ul li a.active, header .navbar ul li a:hover{
 
 /* hero section starts */
 section{
-    min-height: 100vh;
+    min-height: 80vh;
     padding: 2rem 9%;
     /* border: 2px solid red; */
 }
