@@ -53,7 +53,7 @@ document.addEventListener('visibilitychange',
             document.title = "Portfolio | Rudraksh Upadhyay"
         }
         else{
-            document.title = "Par desi par desi jana nhi..."
+            document.title = "Come Back!!!"
         }
     }
 );

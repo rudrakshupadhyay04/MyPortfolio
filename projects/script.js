@@ -36,7 +36,7 @@ function(){
         $("#favicon").attr("href","/assests/images/favicon.png");
     }
     else {
-        document.title = "Come Back To Portfolio";
+        document.title = "Come Back !!!";
         
     }
 });
